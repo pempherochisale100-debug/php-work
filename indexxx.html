@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Hospital Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1 class="main-title">Admin Dashboard</h1>
+        <p class="subtitle">Hospital Management System Dashboard</p>
+
+        <!-- Metrics row (8 cards) -->
+        <div class="metrics">
+            <div class="card"><div class="number">6</div><div class="label">ISSUE ADMINISTRATORS</div></div>
+            <div class="card"><div class="number">10</div><div class="label">MEDICAL STAFF</div></div>
+            <div class="card"><div class="number">6</div><div class="label">ROADSHED BANKRUPT</div></div>
+            <div class="card"><div class="number">2</div><div class="label">PENSION COMPLAINTS</div></div>
+            <div class="card"><div class="number">1</div><div class="label">FOR APPLICATIONS</div></div>
+            <div class="card"><div class="number">$13,745.00</div><div class="label">REVENUE GENERATED</div></div>
+            <div class="card"><div class="number">13</div><div class="label">TOTAL PERSONS</div></div>
+            <div class="card"><div class="number">6</div><div class="label">TODAY'S APPOINTMENTS</div></div>
+        </div>
+
+        <!-- Two-column layout: System Overview + Staff Distribution -->
+        <div class="two-columns">
+            <div class="panel">
+                <div class="panel-title">System Overview</div>
+                <div class="overview-row"><span>DEPARTMENTS</span><span>8</span></div>
+                <div class="overview-row"><span>BED CAPACITY</span><span>120</span></div>
+                <div class="overview-row"><span>AVAILABLE BEDS</span><span>43</span></div>
+                <div class="overview-row"><span>OCCUPANCY RATE</span><span>64%</span></div>
+                <div class="bar"><div class="fill" style="width:64%"></div></div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-title">Staff Distribution</div>
+                <table class="staff-table">
+                    <thead><tr><th>Department</th><th>Number</th></tr></thead>
+                    <tbody>
+                        <tr><td>Cardiology</td><td>4</td></tr>
+                        <tr><td>Surgery</td><td>6</td></tr>
+                        <tr><td>Neurology</td><td>3</td></tr>
+                        <tr><td>Emergency</td><td>5</td></tr>
+                        <tr class="total"><td><strong>TOTAL</strong></td><td><strong>18</strong></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- System Health with bar chart (Orange 50%, Green 40%, Blue 10%) -->
+        <div class="panel health-panel">
+            <div class="panel-title">System Health</div>
+            <div class="chart-item">
+                <div class="chart-label">Orange <span>50%</span></div>
+                <div class="bar-bg"><div class="bar-fill orange" style="width:50%"></div></div>
+            </div>
+            <div class="chart-item">
+                <div class="chart-label">Green <span>40%</span></div>
+                <div class="bar-bg"><div class="bar-fill green" style="width:40%"></div></div>
+            </div>
+            <div class="chart-item">
+                <div class="chart-label">Blue <span>10%</span></div>
+                <div class="bar-bg"><div class="bar-fill blue" style="width:10%"></div></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

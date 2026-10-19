@@ -1,0 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#f5f7fb; font-family:'Inter',sans-serif; padding:28px; }
+.container { max-width:1300px; margin:0 auto; background:white; border-radius:32px; padding:24px; }
+h1 { color:#1f4e72; margin-bottom:20px; }
+.sidebar-menu ul { display:flex; flex-wrap:wrap; gap:16px; list-style:none; background:#f0f4fa; padding:12px 20px; border-radius:40px; margin-bottom:28px; }
+.sidebar-menu li { font-size:0.8rem; font-weight:500; color:#2c5a7a; cursor:pointer; }
+.report-header { background:#eef3fc; padding:16px; border-radius:24px; margin-bottom:28px; }
+.results-table { width:100%; border-collapse:collapse; }
+.results-table th, .results-table td { border:1px solid #dce5ef; padding:12px; text-align:left; vertical-align:top; }
+.results-table th { background:#eef2f8; }
+.notes { margin-top:24px; background:#f9fcff; padding:16px; border-radius:20px; font-size:0.85rem; }

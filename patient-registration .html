@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vector Hospital | Patient ID Registration</title>
+    <link rel="stylesheet" href="patient-registration.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-hospital"></i> Vector Hospital</h1>
+        <h2>Patient ID Registration</h2>
+        <div class="form-card">
+            <label>Patient Full Name</label>
+            <input type="text" value="Abdul">
+            <label>Date of Birth</label>
+            <input type="date" value="2025-07-22">
+            <label>Full Address</label>
+            <input type="text" value="Larkhira">
+            <label>UHID (Unique Health ID)</label>
+            <input type="text" value="16198407314">
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Enter contact number">
+            <label>Identification Details</label>
+            <textarea rows="2" placeholder="Any ID proof"></textarea>
+            <div class="photo-upload">
+                <p><i class="fas fa-camera"></i> Patient Photo</p>
+                <button class="file-btn">Choose File</button> <span class="filename">No file chosen</span>
+                <div class="preview">Photo preview will appear here.</div>
+            </div>
+            <div class="warning">⚠️ Please ensure all information is accurate as it will be posted on the patient's ID card.</div>
+            <button class="generate-btn">Generate Patient ID</button>
+        </div>
+    </div>
+</body>
+</html>

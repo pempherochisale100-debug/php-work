@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #f4f7fc; font-family: 'Inter', sans-serif; padding: 40px 24px; }
+.dashboard { max-width: 1300px; margin: 0 auto; }
+h1 { font-size: 1.8rem; color: #1e3a5f; }
+h2 { font-size: 1.2rem; color: #4a627a; margin-bottom: 30px; font-weight: 500; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px,1fr)); gap: 24px; margin-bottom: 40px; }
+.card { background: white; border-radius: 28px; padding: 1.5rem; box-shadow: 0 8px 20px rgba(0,0,0,0.02); border: 1px solid #e2eaf1; }
+.number { font-size: 2.4rem; font-weight: 800; color: #1f6392; margin-bottom: 6px; }
+.label { font-weight: 700; color: #2c3e50; margin-bottom: 12px; }
+.link, .see-all { font-size: 0.7rem; font-weight: 600; color: #2c7da0; margin-top: 8px; display: inline-block; margin-right: 12px; }
+.extra { font-size: 0.7rem; color: #6f8eae; margin: 8px 0; }
+.account { margin-top: 30px; font-weight: 600; color: #1f4768; border-top: 1px solid #dce5ef; padding-top: 20px; }
